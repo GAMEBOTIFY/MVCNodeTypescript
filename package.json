@@ -1,0 +1,24 @@
+{
+  "name": "Ts-Express-GCE",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev":"nodemon src/app.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.8",
+    "@types/node": "^14.11.8",
+    "nodemon": "^2.0.5",
+    "ts-node": "^9.0.0",
+    "typescript": "^4.0.3"
+  }
+}
